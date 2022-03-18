@@ -1,1 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="|TJ{:YS/Xj$Cnb!YV05*" x="0" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="|TJ{:YS/Xj$Cnb!YV05*" x="0" y="0"><statement name="HANDLER"><block type="gameSplash" id="#{nRTlf;%emlJCkK*MX8"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="title"><shadow type="text" id="O0ZRubwpV+C~2tV:e.=t"><field name="TEXT">stinky poop</field></shadow></value></block></statement></block></xml>
