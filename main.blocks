@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="|TJ{:YS/Xj$Cnb!YV05*" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="G3AX*cDXnn.|LjDw!0LA"><value name="color"><shadow type="colorindexpicker" id="n`Wi#QV~jqJHvkU0{s$@"><field name="index">9</field></shadow></value></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="~3Xj(G-HX]E`egcJgk-%">Player</variable><variable type="KIND_SpriteKind" id="ODT@{K}9(#+N-%/rP]7-">Projectile</variable><variable type="KIND_SpriteKind" id="`Z32KkE4e6ab/Xb0;ysz">Food</variable><variable type="KIND_SpriteKind" id="^|mmh2O}N~hbWUF*)0_D">Enemy</variable><variable id="}mcCH{WF`},UY^QwF|7a">mySprite</variable><variable id="iDrVFM{S0WgW.i~3*er]">item</variable></variables><block type="pxt-on-start" id="|TJ{:YS/Xj$Cnb!YV05*" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="(QUx|.JSMBxGFL=3kb.4"><field name="VAR" id="}mcCH{WF`},UY^QwF|7a">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="w3=#J0LvnU%|Y|NfDsH}"><value name="img"><shadow type="screen_image_picker" id="03YS7BQSKY97%A/eREL8"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . b 5 b . . . 
+. . . . . . . . . b 5 b . . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. b b b b b 5 5 5 5 5 5 5 b . . 
+. b d 5 b 5 5 5 5 5 5 5 5 b . . 
+. . b 5 5 b 5 d 1 f 5 d 4 f . . 
+. . b d 5 5 b 1 f f 5 4 4 c . . 
+b b d b 5 5 5 d f b 4 4 4 4 4 b 
+b d d c d 5 5 b 5 4 4 4 4 4 b . 
+c d d d c c b 5 5 5 5 5 5 5 b . 
+c b d d d d d 5 5 5 5 5 5 5 b . 
+. c d d d d d d 5 5 5 5 5 d b . 
+. . c b d d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"03YS7BQSKY97%A/eREL8"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="N9-^.+#sU[R3yPh7.gg;"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="gamesetbackgroundcolor" id="G3AX*cDXnn.|LjDw!0LA"><value name="color"><shadow type="colorindexpicker" id="n`Wi#QV~jqJHvkU0{s$@"><field name="index">9</field></shadow></value><next><block type="game_control_sprite" id="+^DFc_$!]*yoyKV)Ri@%"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="dI)Pf?VEJ!GJWQfvYKBx"><field name="VAR" id="}mcCH{WF`},UY^QwF|7a">mySprite</field></block></value></block></next></block></next></block></statement></block></xml>
