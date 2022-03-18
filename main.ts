@@ -1,1 +1,1 @@
-game.splash("stinky poop")
+scene.setBackgroundColor(9)
